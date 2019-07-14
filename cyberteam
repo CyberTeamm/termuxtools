@@ -1,0 +1,96 @@
+#!data/data/com.termux/files/usr/bin/bash
+#CyberTeam ATtack Scripti
+#http://cyberteam.xyz/
+#CYberOffical
+
+
+clear
+
+
+
+echo "================================="
+echo "#                               #"
+echo "#     CyberTeam Official        #"
+echo "#         Hack Tools            #"
+echo "#    Coded By CyberOffical      #"
+echo "#    http://cyberteam.xyz       #"
+echo "#                               #"
+echo "#                               #"
+echo "================================="
+echo ""
+echo "Bir Sistem Profili Seçin:"
+echo""
+echo "[1] Linux"
+echo "[2] Termux"
+echo "[3] PC"
+echo "[4] Emulator"
+echo ""
+read -p "Root@CyberTeam > " eue;
+
+if [ $eue = 1 ] || [ $eue = 01 ]
+then
+clear
+figlet Linux DDoS
+echo -e "\e[31mRed Text\e[0m"
+echo "Linux DDoS Programı Kuruluyor..."
+apt update
+apt upgrade
+cd
+mkdir CyberAttackProgram
+cd CyberAttackProgram
+git clone https://github.com/cyweb/hammer
+cd hammer
+chmod 777 hammer.py
+chmod +x hammer.py 
+chmod 777 headers.txt
+chmod +x hearders.txt
+fi
+
+if [ $eue = 2 ] || [ $eue = 02 ]
+then
+clear
+figlet Termux DDoS
+echo "Termux DDoS Programı Kuruluyor..."
+apt update
+apt uğgrade
+cd
+cd CyberAttackProgram
+git clone https://github.com/grafov/hulk
+cd hulk
+chmod +x hulk.py
+chmod +x hulk.go
+chmod 777 hulk.py
+chmod 777 hulk.go
+fi
+
+if [ $eue = 3 ] || [ $eue = 03 ]
+then
+clear
+figlet PC DDoS
+echo "PC DDoS Programı Yükleniyor..."
+
+apt update
+apt upgrae
+pkg install clang
+cd
+cd CyberAttackProgram
+git clone https://github.com/zanyarjamal/xerxes
+cd xerxes
+gcc xerxes.c -o xerxes
+clear
+fi
+
+if [ $eue = 4 ] || [ $eue =04 ]
+then
+clear
+
+apt update
+apt upgrade
+cd 
+cd CyberAttackProgram
+git clone https://github.com/llaera/slowloris.pl
+cd slowloris.pl
+chmod 777 slowloris.pl
+chmod +x slowloris.pl
+fi
+figlet Kuruldu
